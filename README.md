@@ -24,34 +24,35 @@ Follow these steps to set up the project locally:
    ```bash
    git clone https://github.com/Geethss/kisantech.git
    
-2.Install and set up XAMPP for PHP and MySQL.
+2. Install and set up XAMPP for PHP and MySQL.
 
-3.Move the project folder to the htdocs directory in your XAMPP installation.
+3. Move the project folder to the htdocs directory in your XAMPP installation.
 
-4.Start Apache and MySQL services in the XAMPP control panel.
+4. Start Apache and MySQL services in the XAMPP control panel.
 
-5.Import the database:
+5. Import the database:
+   - Open **phpMyAdmin** in your browser (e.g., [http://localhost/phpmyadmin](http://localhost/phpmyadmin)).
+   - Create a new database named `kisantech`.
+   - Import the SQL file located in the repository (`database.sql`).
 
--Open phpMyAdmin in your browser (e.g., http://localhost/phpmyadmin).
--Create a new database named kisantech.
--Import the SQL file located in the repository (database.sql).
-
-6.Run the project:
--Navigate to http://localhost/kisantech in your browser.
+6. Run the project:
+   - Navigate to [http://localhost/kisantech](http://localhost/kisantech) in your browser.
 
 ## Usage
-Crop Recommendation: Enter soil and weather parameters to receive crop recommendations.
-Fertilizer Recommendation: Provide crop details to get optimized fertilizer suggestions.
-Crop Price Prediction: Check future price trends based on historical data.
-Rainfall Prediction: Input your region to see predicted rainfall data.
+- **Crop Recommendation**: Enter soil and weather parameters to receive crop recommendations.
+- **Fertilizer Recommendation**: Provide crop details to get optimized fertilizer suggestions.
+- **Crop Price Prediction**: Check future price trends based on historical data.
+- **Rainfall Prediction**: Input your region to see predicted rainfall data.
+
 
 ## Contributions
 Contributions are welcome! Please open an issue or submit a pull request to suggest improvements or report bugs.
 
 ## Future Scope
-Integration of IoT sensors for real-time monitoring.
-Advanced AI models for yield prediction and pest detection.
-Mobile application for better accessibility and on-the-go usage.
+
+- **Integration of IoT Sensors**: Enable real-time monitoring of soil, weather, and crop conditions.
+- **Advanced AI Models**: Implement models for yield prediction, pest detection, and disease identification.
+- **Mobile Application**: Develop a mobile app for better accessibility and on-the-go usage.
 
 ## License
 This project is licensed under the MIT License.
